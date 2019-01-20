@@ -1,0 +1,191 @@
+/* Ubuntu */
+@font-face{
+  font-family: 'Ubuntu'; /* Light */
+  src : url('../fonts/ubuntu/Ubuntu-L.eot');
+  src : url('../fonts/ubuntu/Ubuntu-L.eot?#iefix') format('eot'),
+        url('../fonts/ubuntu/Ubuntu-L.woff2') format('woff2'),
+        url('../fonts/ubuntu/Ubuntu-L.woff') format('woff'),
+        url('../fonts/ubuntu/Ubuntu-L.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ubuntu'; /* light italic*/
+  src : url('../fonts/ubuntu/Ubuntu-LI.eot');
+  src : url('../fonts/ubuntu/Ubuntu-LI.eot?#iefix') format('eot'),
+        url('../fonts/ubuntu/Ubuntu-LI.woff2') format('woff2'),
+        url('../fonts/ubuntu/Ubuntu-LI.woff') format('woff'),
+        url('../fonts/ubuntu/Ubuntu-LI.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Ubuntu'; /* regular */
+  src : url('../fonts/ubuntu/Ubuntu-R.eot');
+  src : url('../fonts/ubuntu/Ubuntu-R.eot?#iefix') format('eot'),
+        url('../fonts/ubuntu/Ubuntu-R.woff2') format('woff2'),
+        url('../fonts/ubuntu/Ubuntu-R.woff') format('woff'),
+        url('../fonts/ubuntu/Ubuntu-R.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ubuntu'; /* regular italic*/
+  src : url('../fonts/ubuntu/Ubuntu-RI.eot');
+  src : url('../fonts/ubuntu/Ubuntu-RI.eot?#iefix') format('eot'),
+        url('../fonts/ubuntu/Ubuntu-RI.woff2') format('woff2'),
+        url('../fonts/ubuntu/Ubuntu-RI.woff') format('woff'),
+        url('../fonts/ubuntu/Ubuntu-RI.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Ubuntu'; /* Medium */
+  src : url('../fonts/ubuntu/Ubuntu-M.eot');
+  src : url('../fonts/ubuntu/Ubuntu-M.eot?#iefix') format('eot'),
+        url('../fonts/ubuntu/Ubuntu-M.woff2') format('woff2'),
+        url('../fonts/ubuntu/Ubuntu-M.woff') format('woff'),
+        url('../fonts/ubuntu/Ubuntu-m.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ubuntu'; /* Medium italic*/
+  src : url('../fonts/ubuntu/Ubuntu-MI.eot');
+  src : url('../fonts/ubuntu/Ubuntu-MI.eot?#iefix') format('eot'),
+        url('../fonts/ubuntu/Ubuntu-MI.woff2') format('woff2'),
+        url('../fonts/ubuntu/Ubuntu-MI.woff') format('woff'),
+        url('../fonts/ubuntu/Ubuntu-MI.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Ubuntu'; /* Bold */
+  src : url('../fonts/ubuntu/Ubuntu-B.eot');
+  src : url('../fonts/ubuntu/Ubuntu-B.eot?#iefix') format('eot'),
+        url('../fonts/ubuntu/Ubuntu-B.woff2') format('woff2'),
+        url('../fonts/ubuntu/Ubuntu-B.woff') format('woff'),
+        url('../fonts/ubuntu/Ubuntu-B.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ubuntu'; /* Bold italic*/
+  src : url('../fonts/ubuntu/Ubuntu-BI.eot');
+  src : url('../fonts/ubuntu/Ubuntu-BI.eot?#iefix') format('eot'),
+        url('../fonts/ubuntu/Ubuntu-BI.woff2') format('woff2'),
+        url('../fonts/ubuntu/Ubuntu-BI.woff') format('woff'),
+        url('../fonts/ubuntu/Ubuntu-BI.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+/*Ubuntu condensed*/
+@font-face{
+  font-family: 'Ubuntu Condensed'; /* Regular Condensed */
+  src : url('../fonts/ubuntu/Ubuntu-C.eot');
+  src : url('../fonts/ubuntu/Ubuntu-C.eot?#iefix') format('eot'),
+        url('../fonts/ubuntu/Ubuntu-C.woff2') format('woff2'),
+        url('../fonts/ubuntu/Ubuntu-C.woff') format('woff'),
+        url('../fonts/ubuntu/Ubuntu-C.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #908476;
+  background-image: url("../img/tempBackground.jpg");
+  font-size: 30px;
+  line-height: 1.25em;
+  padding: 16em 15em 1em 3em;
+}
+h1 {
+  padding: 0em 0em .3em 0em;
+  margin: 0em;
+}
+p {
+  padding: .5em 0em 0em 0em;
+  margin: 0em;
+}
+
+/*Begin ubuntu styles ubuntu downloaded from google */
+.ubuntu {
+  font-family: 'ubuntu', sans-serif;
+  font-variant: normal;
+}
+.ubuntuLight {
+  font-style: normal;
+  font-weight: 300;
+}
+.ubuntuLightItalic {
+  font-style: italic;
+  font-weight: 300;
+}
+.ubuntuReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.ubuntuRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.ubuntuMed {
+  font-style: normal;
+  font-weight: 500;
+}
+.ubuntuMedItalic {
+  font-style: normal;
+  font-weight: 500;
+}
+.ubuntuBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.ubuntuBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.ubuntuCondensed {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-variant: normal;
+  /* letter-spacing: .01em;
+  word-spacing: .02em; */
+}
+.ubuntuCondensedReg {
+  font-style: normal;
+  font-weight: 400;
+}
+/* <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+ */
+/* End ubuntu classes */
