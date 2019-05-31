@@ -120,21 +120,36 @@
 }
 
 body {
-  background-color: #908476;
-  background-image: url("../img/tempBackground.jpg");
+  background-image: url("../img/forestScamperVanBackground.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   font-size: 30px;
   line-height: 1.25em;
-  padding: 16em 15em 1em 3em;
+  margin: 25% 5% 5% 5%;
 }
 h1 {
-  padding: 0em 0em .3em 0em;
+  padding: 0em 0em .1em 0em;
   margin: 0em;
 }
 p {
-  padding: .5em 0em 0em 0em;
+  padding: .25em 0em .25em 0em;
   margin: 0em;
 }
-
+button {
+  margin: 2em 0em .25em 0em;
+  padding: 0em;
+}
+button#lightButton {
+  display: none;
+}
+.lightBackground {
+  background-color: rgba(109, 108, 103, 0.5);
+  color: black;
+}
+.darkBackground {
+  background-color: rgba(0, 0, 0, 1.0);
+  color: white;
+}
 /*Begin ubuntu styles ubuntu downloaded from google */
 .ubuntu {
   font-family: 'ubuntu', sans-serif;
